@@ -6,7 +6,7 @@ The seeds we use in our experiments are 0, 1, 2.
 ## Installation
         conda create -n reprogram
         conda activate reprogram
-        pip install requirements.txt
+        pip install -r requirements.txt
 
 ## Training
         python instancewise_vp.py --dataset cifar10 --network resnet18 --seed 0
