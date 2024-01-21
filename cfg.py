@@ -5,8 +5,8 @@ import random
 
 
 #Edit the Path
-data_path = '/data'
-results_path = '/data'
+data_path = '/dataset/'
+results_path = '/dataset/'
 
 
 def set_seed(seed):
