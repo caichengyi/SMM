@@ -52,8 +52,7 @@ if __name__ == '__main__':
         transforms.Normalize(IMAGENETNORMALIZE['mean'], IMAGENETNORMALIZE['std']),
     ])
     loaders, class_names = prepare_additive_data(args.dataset, data_path=data_path, preprocess=train_preprocess,
-                                                     test_process=test_preprocess,
-                                                     imgsize=imgsize)
+                                                     test_process=test_preprocess)
 
     # Network
     if args.network == "resnet18":
