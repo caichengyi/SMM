@@ -16,15 +16,19 @@ Since we generate different masks for individual samples, SMM is theoretically s
 The success of SMM further highlights the broader applicability of VR in leveraging the latent knowledge of pre-trained models for various target tasks.
 
 **Method:**
-![](method.png)
-Comparison between existing methods (left) and our method (right). 
+Comparison between existing methods (a) and our method (b). 
 Previous padding-based reprogramming adds zeros around the target image, while resizing-based reprogramming adjusts image dimensions to fit the required input size. 
 Both methods use a pre-determined *shared* mask to indicate the valid location of pattern $\delta$. Our method, on the other hand, takes a more dynamic and tailored approach. 
 We resize each target image and apply a different three-channel mask accordingly, driven by a lightweight model $f_{\rm mask}$ and an interpolation up-scaling module, allowing for more variability in individual samples.
 
+<p align="center">
+  <img src="https://github.com/caichengyi/SMM/blob/main/method.png?raw=true" width=100%/>
+</p>
+
+
 ## Dataset
-- For CIFAR10, CIFAR100, GTSRB, SVHN, use [TorchVision](https://pytorch.org/vision/0.15/datasets.html) to download them.
-- For other datasets, follow the paper [ILM](https://github.com/OPTML-Group/ILM-VP) to prepare them.
+- For CIFAR10, CIFAR100, GTSRB, SVHN, simply run our code and use [TorchVision](https://pytorch.org/vision/0.15/datasets.html) to download them automatically.
+- For other datasets, follow [this paper](https://github.com/OPTML-Group/ILM-VP) to prepare them.
 
 Put all the download datasets in `/dataset/`, or modify the `data_path` in `cfg.py`.
 ## Environment
