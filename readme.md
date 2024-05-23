@@ -1,4 +1,7 @@
 # Sample-Specific Multi-Channel Masks for Visual Reprogramming
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+
 This repository is the official PyTorch implementation of the **ICML2024** paper:
 [Sample-Specific Multi-Channel Masks for Visual Reprogramming](),
 authored by Chengyi Cai, Zesheng Ye, Lei Feng, Jianzhong Qi, and Feng Liu.
