@@ -1,4 +1,4 @@
-# Sample-Specific Multi-Channel Masks for Visual Reprogramming
+# Sample-Specific Multi-Channel Masks for Visual Reprogramming-Based Prompting Technique
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
@@ -10,7 +10,7 @@ authored by Chengyi Cai, Zesheng Ye, Lei Feng, Jianzhong Qi, and Feng Liu.
 Visual Reprogramming, Pre-trained Models, Approximation Error, Machine Learning
 
 **Abstract:**
-*Visual reprogramming* (VR) aims to re-purpose a pre-trained model (e.g., a classifier on ImageNet) to target tasks (e.g., medical data prediction) by learning a *small-scale pattern* added into input images instead of tuning considerable parameters within the model. 
+*Visual reprogramming* (VR) is a prompting technique that aims to re-purpose a pre-trained model (e.g., a classifier on ImageNet) to target tasks (e.g., medical data prediction) by learning a *small-scale pattern* added into input images instead of tuning considerable parameters within the model. 
 The location of the pattern within input samples is usually determined by a pre-defined mask *shared across all samples*. 
 In this paper, we show that the shared mask potentially limits VR's generalization and increases its approximation error due to the lack of sample-level adaptation.
 Motivated by this finding, we design a new framework for VR called *sample-specific multi-channel masks* (SMM). 
