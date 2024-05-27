@@ -68,7 +68,7 @@ This repo is built upon these previous works:
 ## Citation
     
     @inproceedings{cai2024sample,
-        title={Sample-Specific Multi-Channel Masks for Visual Reprogramming},
+        title={Sample-Specific Multi-Channel Masks for Visual Reprogramming-Based Prompting Technique},
         author={Chengyi Cai and Zesheng Ye and Lei Feng and Jianzhong Qi and Feng Liu},
         booktitle = {International Conference on Machine Learning (ICML)},
         year={2024}
