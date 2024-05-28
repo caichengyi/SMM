@@ -1,9 +1,9 @@
-# Sample-Specific Multi-Channel Masks for Visual Reprogramming-Based Prompting Technique
+# Sample-Specific Masks for Visual Reprogramming-Based Prompting
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 This repository is the official PyTorch implementation of the **ICML2024** paper:
-[Sample-Specific Multi-Channel Masks for Visual Reprogramming-Based Prompting Technique](),
+[Sample-Specific Masks for Visual Reprogramming-Based Prompting](),
 authored by Chengyi Cai, Zesheng Ye, Lei Feng, Jianzhong Qi, and Feng Liu.
 
 **Key Words:**
@@ -68,7 +68,7 @@ This repo is built upon these previous works:
 ## Citation
     
     @inproceedings{cai2024sample,
-        title={Sample-Specific Multi-Channel Masks for Visual Reprogramming-Based Prompting Technique},
+        title={Sample-Specific Masks for Visual Reprogramming-Based Prompting},
         author={Chengyi Cai and Zesheng Ye and Lei Feng and Jianzhong Qi and Feng Liu},
         booktitle = {International Conference on Machine Learning (ICML)},
         year={2024}
