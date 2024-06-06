@@ -1,9 +1,9 @@
-# Sample-Specific Masks for Visual Reprogramming-Based Prompting
+# Sample-specific Masks for Visual Reprogramming-based Prompting
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 This repository is the official PyTorch implementation of the **ICML2024** paper:
-[Sample-Specific Masks for Visual Reprogramming-Based Prompting](),
+[Sample-specific Masks for Visual Reprogramming-based Prompting](https://arxiv.org/abs/2406.03150),
 authored by Chengyi Cai, Zesheng Ye, Lei Feng, Jianzhong Qi, and Feng Liu.
 
 **Key Words:**
@@ -68,7 +68,7 @@ This repo is built upon these previous works:
 ## Citation
     
     @inproceedings{cai2024sample,
-        title={Sample-Specific Masks for Visual Reprogramming-Based Prompting},
+        title={Sample-specific Masks for Visual Reprogramming-based Prompting},
         author={Chengyi Cai and Zesheng Ye and Lei Feng and Jianzhong Qi and Feng Liu},
         booktitle = {International Conference on Machine Learning (ICML)},
         year={2024}
